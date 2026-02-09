@@ -1,22 +1,23 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Skills", href: "#skills" },
-  { label: "Contact", href: "#contact" },
-];
+import { motion } from "framer-motion";
+import LanguageSelector from "@/components/LanguageSelector";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Navbar = () => {
+  const { t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+
+  const navItems = [
+    { label: t.nav.about, href: "#about" },
+    { label: t.nav.projects, href: "#projects" },
+    { label: t.nav.skills, href: "#skills" },
+    { label: t.nav.contact, href: "#contact" },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
-
-      // Track active section
       const sections = ["contact", "skills", "projects", "about"];
       for (const id of sections) {
         const el = document.getElementById(id);
@@ -68,7 +69,7 @@ const Navbar = () => {
             const isActive = activeSection === item.href.slice(1);
             return (
               <motion.a
-                key={item.label}
+                key={item.href}
                 href={item.href}
                 className={`text-sm font-heading relative group transition-colors duration-300 ${
                   isActive ? "text-primary" : "text-muted-foreground hover:text-primary"
@@ -85,27 +86,34 @@ const Navbar = () => {
               </motion.a>
             );
           })}
+
+          <div className="ml-2 pl-4 border-l border-primary/10">
+            <LanguageSelector />
+          </div>
         </div>
 
         {/* Mobile navigation */}
-        <div className="sm:hidden flex items-center gap-2">
-          {navItems.map((item) => {
-            const isActive = activeSection === item.href.slice(1);
-            return (
-              <motion.a
-                key={item.label}
-                href={item.href}
-                className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                  isActive
-                    ? "bg-primary shadow-[0_0_8px_hsl(var(--neon-glow)/0.5)]"
-                    : "bg-muted-foreground/30 hover:bg-primary/60"
-                }`}
-                aria-label={item.label}
-                whileHover={{ scale: 1.4 }}
-                whileTap={{ scale: 0.8 }}
-              />
-            );
-          })}
+        <div className="sm:hidden flex items-center gap-3">
+          <LanguageSelector />
+          <div className="flex items-center gap-2">
+            {navItems.map((item) => {
+              const isActive = activeSection === item.href.slice(1);
+              return (
+                <motion.a
+                  key={item.href}
+                  href={item.href}
+                  className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+                    isActive
+                      ? "bg-primary shadow-[0_0_8px_hsl(var(--neon-glow)/0.5)]"
+                      : "bg-muted-foreground/30 hover:bg-primary/60"
+                  }`}
+                  aria-label={item.label}
+                  whileHover={{ scale: 1.4 }}
+                  whileTap={{ scale: 0.8 }}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </motion.nav>

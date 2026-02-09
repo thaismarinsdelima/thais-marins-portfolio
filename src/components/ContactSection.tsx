@@ -2,47 +2,32 @@ import AnimatedSection from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
-
-const links = [
-  {
-    icon: Github,
-    label: "GitHub",
-    href: "https://github.com",
-    description: "Check out my code",
-  },
-  {
-    icon: Linkedin,
-    label: "LinkedIn",
-    href: "https://linkedin.com",
-    description: "Let's connect",
-  },
-  {
-    icon: Mail,
-    label: "Email",
-    href: "mailto:hello@thais.dev",
-    description: "Get in touch",
-  },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const ContactSection = () => {
+  const { t } = useLanguage();
+
+  const links = [
+    { icon: Github, label: t.contact.links.github, href: "https://github.com", description: t.contact.links.githubDesc },
+    { icon: Linkedin, label: t.contact.links.linkedin, href: "https://linkedin.com", description: t.contact.links.linkedinDesc },
+    { icon: Mail, label: t.contact.links.email, href: "mailto:hello@thais.dev", description: t.contact.links.emailDesc },
+  ];
+
   return (
     <section id="contact" className="relative py-24 sm:py-32 px-6">
       <div className="section-divider mb-24" />
 
-      {/* Background glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-primary/4 blur-[130px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-3xl mx-auto text-center">
         <AnimatedSection type="blur">
           <span className="inline-block text-xs font-heading font-medium tracking-widest uppercase text-primary/60 mb-4">
-            Contact
+            {t.contact.label}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold mb-6 tracking-tight">
-            Let's <span className="gradient-text">build something</span> together
+            {t.contact.title}<span className="gradient-text">{t.contact.titleHighlight}</span>{t.contact.titleEnd}
           </h2>
-          <p className="text-muted-foreground text-lg max-w-lg mx-auto mb-12">
-            I'm always open to new opportunities, collaborations, and conversations about AI, automation, and tech.
-          </p>
+          <p className="text-muted-foreground text-lg max-w-lg mx-auto mb-12">{t.contact.subtitle}</p>
         </AnimatedSection>
 
         <AnimatedSection delay={0.2} type="fade-up">
@@ -57,12 +42,7 @@ const ContactSection = () => {
                 whileHover={{ scale: 1.06, y: -2 }}
                 whileTap={{ scale: 0.96 }}
               >
-                <Button
-                  variant="neon-outline"
-                  size="lg"
-                  className="group w-full sm:w-auto"
-                  asChild
-                >
+                <Button variant="neon-outline" size="lg" className="group w-full sm:w-auto" asChild>
                   <a href={link.href} target="_blank" rel="noopener noreferrer">
                     <motion.span
                       className="inline-flex"
@@ -86,7 +66,7 @@ const ContactSection = () => {
             whileHover={{ color: "hsl(var(--muted-foreground) / 0.7)" }}
             transition={{ duration: 0.3 }}
           >
-            © {new Date().getFullYear()} Thais — Built with{" "}
+            © {new Date().getFullYear()} Thais — {t.contact.footer}{" "}
             <motion.span
               className="text-primary/50 inline-block"
               animate={{ scale: [1, 1.2, 1] }}
@@ -94,7 +74,7 @@ const ContactSection = () => {
             >
               ♥
             </motion.span>{" "}
-            and{" "}
+            {t.contact.footerAnd}{" "}
             <a
               href="https://lovable.dev"
               target="_blank"
