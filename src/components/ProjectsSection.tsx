@@ -6,9 +6,9 @@ import { ExternalLink, Github } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const projectMeta = [
-  { tech: ["Lovable", "AI", "Automation", "React"], liveUrl: "#", codeUrl: "#" },
-  { tech: ["Lovable", "Data Viz", "TypeScript", "API"], liveUrl: "#", codeUrl: "#" },
-  { tech: ["Lovable", "AI", "Product", "Agile"], liveUrl: "#", codeUrl: "#" },
+  { tech: ["Lovable", "Antigravity", "Contentful"], liveUrl: "#", codeUrl: "#" },
+  { tech: ["Lovable", "Antigravity", "Contentful"], liveUrl: "#", codeUrl: "#" },
+  { tech: ["Lovable", "Canva"], liveUrl: "#", codeUrl: "#" },
 ];
 
 const ProjectsSection = () => {

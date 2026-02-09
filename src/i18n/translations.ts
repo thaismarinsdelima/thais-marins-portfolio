@@ -18,7 +18,7 @@ export const translations = {
       ai: " AI",
       subtitleEnd: ".",
       description:
-        "Tech professional with a strong background in QA, agile processes, and product development — now focused on leveraging AI and automation to create smarter, faster, and more impactful digital experiences.",
+        "I design and build digital solutions focused on quality, usability, and automation. With a strong background in QA, agile processes, and product thinking, I now work at the intersection of technology and AI — creating smarter, scalable, and user-centered digital experiences.",
       cta: "View My Projects",
       ctaAbout: "About Me",
     },
@@ -27,9 +27,9 @@ export const translations = {
       title: "Where ",
       titleHighlight: "technology",
       titleEnd: " meets purpose",
-      p1: "I'm a tech professional with deep roots in Quality Assurance, product development, and agile methodologies. Over the years, I've worked across complex systems, ensuring that digital products not only function flawlessly but also deliver meaningful experiences.",
-      p2: "Today, my focus has shifted toward the future — AI, automation, and intelligent digital solutions. I believe that the best products are built at the intersection of technical excellence and human-centered thinking. I'm passionate about leveraging cutting-edge tools to solve real problems, streamline processes, and create solutions that scale.",
-      p3: "Whether it's building AI-powered prototypes with Lovable, designing automated testing pipelines, or shaping product strategy — I bring a blend of analytical rigor and creative curiosity to everything I do.",
+      p1: "I'm a technology professional with a solid background in Quality Assurance, product development, and agile methodologies. Throughout my career, I've worked closely with systems, processes, and digital products, always ensuring that what is built works reliably, delivers value, and creates a positive experience for users.",
+      p2: "Over time, my focus naturally evolved toward the future of technology. Today, I work with AI-powered solutions, automation, and modern web tools to simplify processes, optimize workflows, and build digital products that scale. I believe the best solutions are born where technical excellence meets human-centered thinking.",
+      p3: "My approach combines analytical rigor, product vision, and creativity. Whether designing automated flows, structuring content-driven platforms, or building AI-assisted tools, my goal is always the same: solve real problems with clarity, efficiency, and impact.",
       highlights: [
         { label: "AI & Automation", description: "Building intelligent workflows and AI-powered tools" },
         { label: "Quality & Product", description: "Driving product excellence through strategic QA" },
@@ -40,21 +40,21 @@ export const translations = {
       label: "Projects",
       title: "Built with ",
       titleHighlight: "Lovable",
-      subtitle: "A selection of projects exploring AI, automation, and modern web development.",
+      subtitle: "A selection of projects exploring AI, automation, content-driven platforms, and modern web experiences.",
       liveDemo: "Live Demo",
       viewCode: "View Code",
       items: [
         {
-          title: "AI Task Automator",
-          description: "An intelligent automation platform that uses AI to streamline repetitive workflows, reducing manual effort by 70%.",
+          title: "Achadinhos da Thatah",
+          description: "Achadinhos da Thatah is a content-driven affiliate platform focused on discovering, curating, and sharing products, deals, and promotions across multiple markets. The platform centralizes affiliate content from Amazon (Brazil, USA, and Europe), Shein, and other marketplaces, combining performance-driven strategies with curated content. It also includes a blog structure for publishing promotions, coupons, product highlights, and relevant articles, all designed to improve discoverability and conversion.",
         },
         {
-          title: "Quality Dashboard",
-          description: "Real-time QA metrics dashboard with automated test reporting, defect tracking, and predictive quality analytics.",
+          title: "Ruivando na Europa",
+          description: "Ruivando na Europa is a practical and experience-based platform dedicated to red hair care in Europe. The project focuses on providing reliable, tested information about red hair maintenance, product recommendations, and care routines adapted to European climates. It combines educational content with curated product links, coupons, and offers to support informed purchasing decisions.",
         },
         {
-          title: "Smart Product Planner",
-          description: "AI-assisted product planning tool that helps teams prioritize features, estimate effort, and track delivery with intelligent insights.",
+          title: "The Mel and Moon Diaries – Bio Site",
+          description: "A modern and customizable bio link platform designed as an alternative to traditional link-in-bio tools. Built with a mobile-first approach, the site uses interactive cards to organize and highlight essential links for social media audiences, offering a personalized, visually engaging, and brand-focused experience.",
         },
       ],
     },
@@ -65,19 +65,19 @@ export const translations = {
       items: [
         {
           title: "AI & Automation",
-          description: "Leveraging artificial intelligence and automation tools to build smarter workflows, reduce manual tasks, and create intelligent digital solutions.",
+          description: "I build AI-powered workflows and automation solutions that reduce manual effort, improve efficiency, and support smarter decision-making across digital products and processes.",
         },
         {
           title: "Product & Quality",
-          description: "Ensuring product excellence through strategic QA, test automation, and a relentless focus on delivering reliable, user-centric experiences.",
+          description: "I bring a strong quality-first mindset to product development, ensuring reliability, usability, and alignment with real business and user needs from concept to delivery.",
         },
         {
           title: "Agile & Processes",
-          description: "Driving efficient delivery through agile methodologies, continuous improvement, and lean processes that prioritize value and speed.",
+          description: "With experience in agile methodologies, I help structure processes that enable continuous improvement, fast iteration, and sustainable product growth.",
         },
         {
           title: "Web & Digital Solutions",
-          description: "Building modern, responsive web applications using cutting-edge technologies and design systems that scale beautifully.",
+          description: "I design and build modern, content-driven, and scalable web solutions using cutting-edge tools, focusing on performance, clarity, and user experience.",
         },
       ],
     },
@@ -86,7 +86,7 @@ export const translations = {
       title: "Let's ",
       titleHighlight: "build something",
       titleEnd: " together",
-      subtitle: "I'm always open to new opportunities, collaborations, and conversations about AI, automation, and tech.",
+      subtitle: "I'm always open to new opportunities, collaborations, and conversations about AI, automation, digital products, and technology.",
       links: {
         github: "GitHub",
         githubDesc: "Check out my code",
@@ -116,7 +116,7 @@ export const translations = {
       ai: " IA",
       subtitleEnd: ".",
       description:
-        "Profissional de tecnologia com sólida experiência em QA, processos ágeis e desenvolvimento de produto — agora focada em usar IA e automação para criar experiências digitais mais inteligentes, rápidas e impactantes.",
+        "Eu projeto e construo soluções digitais focadas em qualidade, usabilidade e automação. Com uma sólida experiência em QA, processos ágeis e pensamento de produto, hoje atuo na intersecção entre tecnologia e IA — criando experiências digitais mais inteligentes, escaláveis e centradas no usuário.",
       cta: "Ver Meus Projetos",
       ctaAbout: "Sobre Mim",
     },
@@ -125,9 +125,9 @@ export const translations = {
       title: "Onde a ",
       titleHighlight: "tecnologia",
       titleEnd: " encontra propósito",
-      p1: "Sou uma profissional de tecnologia com raízes profundas em Garantia de Qualidade, desenvolvimento de produto e metodologias ágeis. Ao longo dos anos, trabalhei em sistemas complexos, garantindo que produtos digitais não apenas funcionem perfeitamente, mas também entreguem experiências significativas.",
-      p2: "Hoje, meu foco se voltou para o futuro — IA, automação e soluções digitais inteligentes. Acredito que os melhores produtos são construídos na intersecção entre excelência técnica e pensamento centrado no ser humano. Sou apaixonada por usar ferramentas de ponta para resolver problemas reais, otimizar processos e criar soluções escaláveis.",
-      p3: "Seja construindo protótipos com IA no Lovable, projetando pipelines de testes automatizados ou moldando estratégias de produto — trago uma combinação de rigor analítico e curiosidade criativa para tudo que faço.",
+      p1: "Sou uma profissional de tecnologia com sólida experiência em Garantia de Qualidade, desenvolvimento de produto e metodologias ágeis. Ao longo da minha carreira, trabalhei de perto com sistemas, processos e produtos digitais, sempre garantindo que o que é construído funcione de forma confiável, entregue valor e crie uma experiência positiva para os usuários.",
+      p2: "Com o tempo, meu foco evoluiu naturalmente em direção ao futuro da tecnologia. Hoje, trabalho com soluções baseadas em IA, automação e ferramentas web modernas para simplificar processos, otimizar fluxos de trabalho e construir produtos digitais que escalam. Acredito que as melhores soluções nascem onde a excelência técnica encontra o pensamento centrado no ser humano.",
+      p3: "Minha abordagem combina rigor analítico, visão de produto e criatividade. Seja projetando fluxos automatizados, estruturando plataformas orientadas a conteúdo ou construindo ferramentas assistidas por IA, meu objetivo é sempre o mesmo: resolver problemas reais com clareza, eficiência e impacto.",
       highlights: [
         { label: "IA & Automação", description: "Criando fluxos inteligentes e ferramentas com IA" },
         { label: "Qualidade & Produto", description: "Excelência em produto com QA estratégico" },
@@ -138,21 +138,21 @@ export const translations = {
       label: "Projetos",
       title: "Feito com ",
       titleHighlight: "Lovable",
-      subtitle: "Uma seleção de projetos explorando IA, automação e desenvolvimento web moderno.",
+      subtitle: "Uma seleção de projetos explorando IA, automação, plataformas orientadas a conteúdo e experiências web modernas.",
       liveDemo: "Demo ao Vivo",
       viewCode: "Ver Código",
       items: [
         {
-          title: "Automatizador de Tarefas IA",
-          description: "Uma plataforma inteligente de automação que usa IA para simplificar fluxos de trabalho repetitivos, reduzindo o esforço manual em 70%.",
+          title: "Achadinhos da Thatah",
+          description: "Achadinhos da Thatah é uma plataforma de afiliados orientada a conteúdo, focada em descobrir, curar e compartilhar produtos, ofertas e promoções em múltiplos mercados. A plataforma centraliza conteúdo de afiliados da Amazon (Brasil, EUA e Europa), Shein e outros marketplaces, combinando estratégias de performance com conteúdo curado. Também inclui uma estrutura de blog para publicação de promoções, cupons, destaques de produtos e artigos relevantes, tudo projetado para melhorar a descoberta e conversão.",
         },
         {
-          title: "Dashboard de Qualidade",
-          description: "Dashboard de métricas de QA em tempo real com relatórios automatizados, rastreamento de defeitos e análise preditiva de qualidade.",
+          title: "Ruivando na Europa",
+          description: "Ruivando na Europa é uma plataforma prática e baseada em experiência dedicada aos cuidados com cabelos ruivos na Europa. O projeto foca em fornecer informações confiáveis e testadas sobre manutenção de cabelos ruivos, recomendações de produtos e rotinas de cuidados adaptadas aos climas europeus. Combina conteúdo educativo com links de produtos curados, cupons e ofertas para apoiar decisões de compra informadas.",
         },
         {
-          title: "Planejador de Produto Inteligente",
-          description: "Ferramenta de planejamento de produto assistida por IA que ajuda equipes a priorizar funcionalidades, estimar esforço e acompanhar entregas com insights inteligentes.",
+          title: "The Mel and Moon Diaries – Bio Site",
+          description: "Uma plataforma moderna e personalizável de bio link projetada como alternativa às ferramentas tradicionais de link-in-bio. Construída com abordagem mobile-first, o site usa cards interativos para organizar e destacar links essenciais para audiências de redes sociais, oferecendo uma experiência personalizada, visualmente atraente e focada na marca.",
         },
       ],
     },
@@ -163,19 +163,19 @@ export const translations = {
       items: [
         {
           title: "IA & Automação",
-          description: "Usando inteligência artificial e ferramentas de automação para construir fluxos mais inteligentes, reduzir tarefas manuais e criar soluções digitais inteligentes.",
+          description: "Eu construo fluxos de trabalho baseados em IA e soluções de automação que reduzem o esforço manual, melhoram a eficiência e apoiam decisões mais inteligentes em produtos e processos digitais.",
         },
         {
           title: "Produto & Qualidade",
-          description: "Garantindo excelência de produto através de QA estratégico, automação de testes e foco em entregar experiências confiáveis e centradas no usuário.",
+          description: "Trago uma mentalidade forte de qualidade em primeiro lugar para o desenvolvimento de produtos, garantindo confiabilidade, usabilidade e alinhamento com necessidades reais de negócios e usuários, do conceito à entrega.",
         },
         {
           title: "Ágil & Processos",
-          description: "Impulsionando entregas eficientes através de metodologias ágeis, melhoria contínua e processos lean que priorizam valor e velocidade.",
+          description: "Com experiência em metodologias ágeis, ajudo a estruturar processos que permitem melhoria contínua, iteração rápida e crescimento sustentável do produto.",
         },
         {
           title: "Web & Soluções Digitais",
-          description: "Construindo aplicações web modernas e responsivas usando tecnologias de ponta e sistemas de design que escalam lindamente.",
+          description: "Eu projeto e construo soluções web modernas, orientadas a conteúdo e escaláveis usando ferramentas de ponta, com foco em performance, clareza e experiência do usuário.",
         },
       ],
     },
@@ -184,7 +184,7 @@ export const translations = {
       title: "Vamos ",
       titleHighlight: "construir algo",
       titleEnd: " juntos",
-      subtitle: "Estou sempre aberta a novas oportunidades, colaborações e conversas sobre IA, automação e tecnologia.",
+      subtitle: "Estou sempre aberta a novas oportunidades, colaborações e conversas sobre IA, automação, produtos digitais e tecnologia.",
       links: {
         github: "GitHub",
         githubDesc: "Confira meu código",
@@ -214,7 +214,7 @@ export const translations = {
       ai: " IA",
       subtitleEnd: ".",
       description:
-        "Profesional de tecnología con sólida experiencia en QA, procesos ágiles y desarrollo de producto — ahora enfocada en aprovechar la IA y la automatización para crear experiencias digitales más inteligentes, rápidas e impactantes.",
+        "Diseño y construyo soluciones digitales enfocadas en calidad, usabilidad y automatización. Con una sólida experiencia en QA, procesos ágiles y pensamiento de producto, hoy trabajo en la intersección entre tecnología e IA — creando experiencias digitales más inteligentes, escalables y centradas en el usuario.",
       cta: "Ver Mis Proyectos",
       ctaAbout: "Sobre Mí",
     },
@@ -223,9 +223,9 @@ export const translations = {
       title: "Donde la ",
       titleHighlight: "tecnología",
       titleEnd: " encuentra propósito",
-      p1: "Soy una profesional de tecnología con raíces profundas en Aseguramiento de Calidad, desarrollo de producto y metodologías ágiles. A lo largo de los años, he trabajado en sistemas complejos, asegurando que los productos digitales no solo funcionen a la perfección, sino que también entreguen experiencias significativas.",
-      p2: "Hoy, mi enfoque se ha dirigido hacia el futuro — IA, automatización y soluciones digitales inteligentes. Creo que los mejores productos se construyen en la intersección entre la excelencia técnica y el pensamiento centrado en las personas. Me apasiona aprovechar herramientas de vanguardia para resolver problemas reales, optimizar procesos y crear soluciones escalables.",
-      p3: "Ya sea construyendo prototipos con IA en Lovable, diseñando pipelines de pruebas automatizadas o dando forma a estrategias de producto — aporto una combinación de rigor analítico y curiosidad creativa a todo lo que hago.",
+      p1: "Soy una profesional de tecnología con una sólida experiencia en Aseguramiento de Calidad, desarrollo de producto y metodologías ágiles. A lo largo de mi carrera, he trabajado de cerca con sistemas, procesos y productos digitales, siempre asegurando que lo construido funcione de manera confiable, entregue valor y cree una experiencia positiva para los usuarios.",
+      p2: "Con el tiempo, mi enfoque evolucionó naturalmente hacia el futuro de la tecnología. Hoy trabajo con soluciones basadas en IA, automatización y herramientas web modernas para simplificar procesos, optimizar flujos de trabajo y construir productos digitales que escalan. Creo que las mejores soluciones nacen donde la excelencia técnica se encuentra con el pensamiento centrado en las personas.",
+      p3: "Mi enfoque combina rigor analítico, visión de producto y creatividad. Ya sea diseñando flujos automatizados, estructurando plataformas orientadas a contenido o construyendo herramientas asistidas por IA, mi objetivo es siempre el mismo: resolver problemas reales con claridad, eficiencia e impacto.",
       highlights: [
         { label: "IA & Automatización", description: "Creando flujos inteligentes y herramientas con IA" },
         { label: "Calidad & Producto", description: "Excelencia en producto con QA estratégico" },
@@ -236,21 +236,21 @@ export const translations = {
       label: "Proyectos",
       title: "Hecho con ",
       titleHighlight: "Lovable",
-      subtitle: "Una selección de proyectos explorando IA, automatización y desarrollo web moderno.",
+      subtitle: "Una selección de proyectos explorando IA, automatización, plataformas orientadas a contenido y experiencias web modernas.",
       liveDemo: "Demo en Vivo",
       viewCode: "Ver Código",
       items: [
         {
-          title: "Automatizador de Tareas IA",
-          description: "Una plataforma inteligente de automatización que usa IA para simplificar flujos de trabajo repetitivos, reduciendo el esfuerzo manual en un 70%.",
+          title: "Achadinhos da Thatah",
+          description: "Achadinhos da Thatah es una plataforma de afiliados orientada a contenido, enfocada en descubrir, curar y compartir productos, ofertas y promociones en múltiples mercados. La plataforma centraliza contenido de afiliados de Amazon (Brasil, EE.UU. y Europa), Shein y otros marketplaces, combinando estrategias de rendimiento con contenido curado. También incluye una estructura de blog para publicar promociones, cupones, destacados de productos y artículos relevantes, todo diseñado para mejorar la visibilidad y conversión.",
         },
         {
-          title: "Dashboard de Calidad",
-          description: "Dashboard de métricas de QA en tiempo real con reportes automatizados, seguimiento de defectos y análisis predictivo de calidad.",
+          title: "Ruivando na Europa",
+          description: "Ruivando na Europa es una plataforma práctica y basada en experiencia dedicada al cuidado del cabello pelirrojo en Europa. El proyecto se enfoca en proporcionar información confiable y probada sobre mantenimiento de cabello pelirrojo, recomendaciones de productos y rutinas de cuidado adaptadas a los climas europeos. Combina contenido educativo con enlaces de productos curados, cupones y ofertas para apoyar decisiones de compra informadas.",
         },
         {
-          title: "Planificador de Producto Inteligente",
-          description: "Herramienta de planificación de producto asistida por IA que ayuda a equipos a priorizar funcionalidades, estimar esfuerzo y hacer seguimiento con insights inteligentes.",
+          title: "The Mel and Moon Diaries – Bio Site",
+          description: "Una plataforma moderna y personalizable de bio link diseñada como alternativa a las herramientas tradicionales de link-in-bio. Construida con enfoque mobile-first, el sitio usa tarjetas interactivas para organizar y destacar enlaces esenciales para audiencias de redes sociales, ofreciendo una experiencia personalizada, visualmente atractiva y enfocada en la marca.",
         },
       ],
     },
@@ -261,19 +261,19 @@ export const translations = {
       items: [
         {
           title: "IA & Automatización",
-          description: "Aprovechando la inteligencia artificial y herramientas de automatización para construir flujos más inteligentes, reducir tareas manuales y crear soluciones digitales inteligentes.",
+          description: "Construyo flujos de trabajo basados en IA y soluciones de automatización que reducen el esfuerzo manual, mejoran la eficiencia y apoyan decisiones más inteligentes en productos y procesos digitales.",
         },
         {
           title: "Producto & Calidad",
-          description: "Asegurando la excelencia del producto a través de QA estratégico, automatización de pruebas y enfoque en entregar experiencias confiables y centradas en el usuario.",
+          description: "Aporto una fuerte mentalidad de calidad primero al desarrollo de productos, asegurando confiabilidad, usabilidad y alineación con necesidades reales de negocio y usuarios, del concepto a la entrega.",
         },
         {
           title: "Ágil & Procesos",
-          description: "Impulsando entregas eficientes a través de metodologías ágiles, mejora continua y procesos lean que priorizan valor y velocidad.",
+          description: "Con experiencia en metodologías ágiles, ayudo a estructurar procesos que permiten mejora continua, iteración rápida y crecimiento sostenible del producto.",
         },
         {
           title: "Web & Soluciones Digitales",
-          description: "Construyendo aplicaciones web modernas y responsivas usando tecnologías de vanguardia y sistemas de diseño que escalan bellamente.",
+          description: "Diseño y construyo soluciones web modernas, orientadas a contenido y escalables usando herramientas de vanguardia, con enfoque en rendimiento, claridad y experiencia del usuario.",
         },
       ],
     },
@@ -282,7 +282,7 @@ export const translations = {
       title: "Vamos a ",
       titleHighlight: "construir algo",
       titleEnd: " juntos",
-      subtitle: "Siempre estoy abierta a nuevas oportunidades, colaboraciones y conversaciones sobre IA, automatización y tecnología.",
+      subtitle: "Siempre estoy abierta a nuevas oportunidades, colaboraciones y conversaciones sobre IA, automatización, productos digitales y tecnología.",
       links: {
         github: "GitHub",
         githubDesc: "Revisa mi código",

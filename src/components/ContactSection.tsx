@@ -8,7 +8,7 @@ const ContactSection = () => {
   const { t } = useLanguage();
 
   const links = [
-    { icon: Github, label: t.contact.links.github, href: "https://github.com", description: t.contact.links.githubDesc },
+    { icon: Github, label: t.contact.links.github, href: "https://github.com/thaismarinsdelima", description: t.contact.links.githubDesc },
     { icon: Linkedin, label: t.contact.links.linkedin, href: "https://linkedin.com", description: t.contact.links.linkedinDesc },
     { icon: Mail, label: t.contact.links.email, href: "mailto:hello@thais.dev", description: t.contact.links.emailDesc },
   ];
