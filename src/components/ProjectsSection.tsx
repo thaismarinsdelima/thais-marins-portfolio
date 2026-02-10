@@ -6,9 +6,9 @@ import { ExternalLink, Github } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const projectMeta = [
+  { tech: ["Lovable", "Antigravity", "Contentful"], liveUrl: "https://achadinhosdathatah.presencadigitaltp.com/", codeUrl: "https://github.com/thaismarinsdelima/achadinhos-da-thatah" },
   { tech: ["Lovable", "Antigravity", "Contentful"], liveUrl: "#", codeUrl: "#" },
-  { tech: ["Lovable", "Antigravity", "Contentful"], liveUrl: "#", codeUrl: "#" },
-  { tech: ["Lovable", "Canva"], liveUrl: "#", codeUrl: "#" },
+  { tech: ["Lovable", "Canva"], liveUrl: "https://themelandmoondiaries.presencadigitaltp.com/", codeUrl: "https://github.com/thaismarinsdelima/themelandmoondiaries-minisitebio" },
 ];
 
 const ProjectsSection = () => {
